@@ -1,0 +1,19 @@
+/* variables */
+
+:root {
+   
+    /* colors */
+    --clr-primary-500: #6943FF;
+    --clr-secondary-300: #B295FF;
+    --clr-neutral-100: #FFFFFF;
+    --clr-neutral-200: #F4F4F4;
+    --clr-neutral-400: #3D3D3D;
+    --clr-neutral-600:  #5A537B;
+
+    --ff-primary: 'Open Sans', sans-serif;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+
+}
