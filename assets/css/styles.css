@@ -30,3 +30,23 @@ body {
 .container {
     text-align: center;
 }
+
+.container__unit-converter {
+    background-color: var(--clr-primary-500);
+    color: var(--clr-neutral-100);
+    padding: 1.5rem 0;
+}
+
+#unit-input {
+   width: 115px;
+   height: 80px;
+   font-size: 58px;
+   text-align: center;
+   color: var(--clr-neutral-100);
+   background-color: var(--clr-primary-500);
+   border: var(--clr-secondary-300) 1px solid;
+   border-radius: 5px;
+   font-weight: var(--fw-medium);
+   display: block;
+   margin: 1rem auto;
+}
