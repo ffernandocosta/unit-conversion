@@ -9,6 +9,7 @@
     --clr-neutral-200: #F4F4F4;
     --clr-neutral-400: #3D3D3D;
     --clr-neutral-600:  #5A537B;
+    --clr-neutral-800: #111827;
 
     --ff-primary: 'Open Sans', sans-serif;
 
@@ -23,12 +24,14 @@
 body {
     font-family: var(--ff-primary);
     font-weight: var(--fw-light);
+    background-color: var(--clr-neutral-800);
 }
 
 /* container */
 
 .container {
     text-align: center;
+    margin: 1rem;
 }
 
 .container__unit-converter {
