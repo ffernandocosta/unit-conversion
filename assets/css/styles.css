@@ -42,6 +42,10 @@ body {
     padding: 1.5rem 3rem;
 }
 
+.container__unit-converter h1 {
+    font-size: 1.7rem;
+}
+
 #unit-input {
    width: 115px;
    height: 80px;
