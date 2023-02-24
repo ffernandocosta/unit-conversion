@@ -61,3 +61,30 @@ body {
     border-radius: 5px;
     font-weight: var(--fw-medium);
 }
+
+/* metric/imperial ul list */
+
+.metric-imperial__list {
+    list-style: none;
+    background-color: var(--clr-neutral-200);
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.metric-imperial__items {
+    background-color: var(--clr-neutral-100);
+    padding: 1.5rem;
+}
+
+.metric-imperial__items h2 {
+    font-size: 0.900rem;
+    color: var(--clr-neutral-600);
+}
+
+#unit-conversion-result {
+    font-size: 0.800rem;
+    font-weight: var(--fw-medium);
+    color: var(--clr-neutral-400);
+    overflow-wrap: break-word;
+}
