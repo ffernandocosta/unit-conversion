@@ -17,3 +17,16 @@
     --fw-medium: 500;
 
 }
+
+/* general styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-light);
+}
+
+/* container */
+
+.container {
+    text-align: center;
+}
