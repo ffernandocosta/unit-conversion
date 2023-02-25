@@ -60,6 +60,11 @@ body {
    margin: 1rem auto;
 }
 
+#unit-input::placeholder {
+    color: var(--clr-neutral-100);
+
+}
+
 #unit-converter-button {
     padding: 0.5rem 1.8rem;
     background-color: var(--clr-neutral-100);
