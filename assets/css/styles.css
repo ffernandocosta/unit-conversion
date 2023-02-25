@@ -88,7 +88,7 @@ body {
     color: var(--clr-neutral-600);
 }
 
-#unit-conversion-result {
+.unit-conversion-result {
     font-size: 0.800rem;
     font-weight: var(--fw-medium);
     color: var(--clr-neutral-400);
