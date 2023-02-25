@@ -5,6 +5,9 @@
     /* colors */
     --clr-primary-500: #6943FF;
     --clr-secondary-300: #B295FF;
+    --clr-heading-100: #FFFFFF;
+    --clr-body-600: #5A537B;
+
     --clr-neutral-100: #FFFFFF;
     --clr-neutral-200: #F4F4F4;
     --clr-neutral-400: #3D3D3D;
@@ -17,6 +20,13 @@
     --fw-regular: 400;
     --fw-medium: 500;
 
+}
+
+.dark-mode {
+    --clr-neutral-100: #273549;
+    --clr-neutral-200: #1F2937;
+    --clr-body-600: #FFFFFF;
+    --clr-neutral-600: #CCC1FF;
 }
 
 /* general styling */
@@ -38,12 +48,12 @@ body {
 
 .container__unit-converter {
     background-color: var(--clr-primary-500);
-    color: var(--clr-neutral-100);
     padding: 1.5rem 3rem;
 }
 
 .container__unit-converter h1 {
     font-size: 1.7rem;
+    color: var(--clr-heading-100);
 }
 
 #unit-input {
@@ -51,7 +61,7 @@ body {
    height: 80px;
    font-size: 58px;
    text-align: center;
-   color: var(--clr-neutral-100);
+   color: var(--clr-heading-100);
    background-color: var(--clr-primary-500);
    border: var(--clr-secondary-300) 1px solid;
    border-radius: 5px;
@@ -61,13 +71,13 @@ body {
 }
 
 #unit-input::placeholder {
-    color: var(--clr-neutral-100);
+    color: var(--clr-heading-100);
 
 }
 
 #unit-converter-button {
     padding: 0.5rem 1.8rem;
-    background-color: var(--clr-neutral-100);
+    background-color: var(--clr-heading-100);
     border: none;
     border-radius: 5px;
     font-weight: var(--fw-medium);
@@ -96,6 +106,6 @@ body {
 .unit-conversion-result {
     font-size: 0.800rem;
     font-weight: var(--fw-medium);
-    color: var(--clr-neutral-400);
+    color: var(--clr-body-600);
     overflow-wrap: break-word;
 }
