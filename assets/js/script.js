@@ -14,7 +14,7 @@ unitConverterButtonEl.addEventListener("click", (e) => {
 });
 
 function render() {
-    let baseValue = unitInputEl.value;
+    const baseValue = unitInputEl.value;
     
     lenghtResultEl.textContent = `${baseValue} meters = ${(baseValue * meterToFeet).toFixed(3)} feet | ${baseValue} feet = ${(baseValue / meterToFeet).toFixed(3)}`;
 
