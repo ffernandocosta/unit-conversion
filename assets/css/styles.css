@@ -42,13 +42,70 @@ body {
 /* container */
 
 .container {
+    background-color: var(--clr-primary-500);
     text-align: center;
     margin: 1rem;
 }
 
-.container__unit-converter {
+/* light and dark mode toggle checkbox */
+
+.light-dark-mode__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.light-dark-mode-toggle {
+    opacity: 0;
+    position: absolute;
+  }
+  
+.light-dark-mode-label {
+    background-color: var(--clr-heading-100);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+  
+  }
+  
+  
+.light-dark-mode-label .circle {
     background-color: var(--clr-primary-500);
-    padding: 1.5rem 3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+  }
+  
+.light-dark-mode-toggle:checked + .light-dark-mode-label .circle {
+    transform: translateX(24px);
+  }
+  
+.fa-moon {
+    color: var(--clr-neutral-800);
+  }
+  
+.fa-sun {
+    color: var(--clr-neutral-600);
+  }
+
+/* unit converter styles */
+
+  .container__unit-converter {
+    padding: 1.5rem 3rem 0.5rem 3rem;
 }
 
 .container__unit-converter h1 {
