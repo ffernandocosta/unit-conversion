@@ -3,6 +3,7 @@ const unitConverterButtonEl = document.getElementById("unit-converter-button");
 const lenghtResultEl = document.getElementById("lenght-result");
 const volumeResultEl = document.getElementById("volume-result");
 const massResult = document.getElementById("mass-result");
+const lightDarkModeEl = document.getElementById("checkbox-toggle");
 
 const meterToFeet =  3.281;
 const literToGallon =  0.264;
@@ -24,4 +25,8 @@ function render() {
 
 
 };
+
+lightDarkModeEl.addEventListener('change', () => {
+    document.body.classList.toggle('dark-mode')
+})
 
