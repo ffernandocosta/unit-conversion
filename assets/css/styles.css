@@ -138,6 +138,7 @@ body {
     border: none;
     border-radius: 5px;
     font-weight: var(--fw-medium);
+    cursor: pointer;
 }
 
 /* metric/imperial ul list */
